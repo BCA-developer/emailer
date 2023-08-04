@@ -1,0 +1,21 @@
+{
+  "cSpell.words": [
+  ],
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "dist/*": true,
+    "documentation/*": true,
+    "package-lock.json": true,
+    "package.json": true
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "zap",
+    "type": "text",
+    "foreground": "#a8c023",
+    "opacity": 0,
+    "iconColour": "#a8c023",
+    "gutterIcon": true
+  },
+}

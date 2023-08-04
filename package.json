@@ -1,0 +1,25 @@
+{
+  "name": "@BCA-developer/bca-npm-template",
+  "repository": {
+    "type": "git",
+    "url": "github:BCA-developer/bca-npm-template"
+  },
+  "version": "0.0.1",
+  "description": "Starter for npm package projects",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine",
+    "prepublishOnly": "npm run test",
+    "preversion": "npm run test"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^4.6.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

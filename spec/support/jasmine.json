@@ -1,0 +1,14 @@
+{
+  "spec_dir": ".",
+  "spec_files": [
+    "**/*-spec.mjs",
+    "!node_modules/**/*",
+    "!**/jasmine_examples/**/*"
+  ],
+  "jsLoader": "import",
+  "helpers": [
+    "spec/helpers/**/*.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": true
+}
