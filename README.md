@@ -6,6 +6,5 @@ that one has:
 a registered domain,
 * associated that domain in DNS with the deployed application address,
 * included the  folder named Config at the top-level of your application containing a
-file named config.js containing a const JSON named config,
-containing a key named "domain" whose value is the registered domain, and
-* included the .aws folder with credentials to the AWS account under the app profile.
+file named config.js containing a const JSON named config, and
+containing a key named "domain" whose value is the registered domain..
